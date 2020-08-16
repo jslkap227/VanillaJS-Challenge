@@ -1,0 +1,47 @@
+body {
+  width: 560px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  background-color: #b2bec3;
+  color: white;
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+.yellow {
+  background-color: #f1c40f;
+  color: white;
+}
+.purple {
+  background-color: #8e44ad;
+  color: white;
+}
+.blue {
+  background-color: #3498db;
+  color: white;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.bgImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
