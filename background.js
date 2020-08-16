@@ -8,7 +8,7 @@ function genNumber() {
 
 function paintBackground(number) {
   const img = new Image();
-  img.src = `C:/Users/s_jslkap227/Desktop/study/nomad/JS-Chrome_challenge/images/${number}.jpg`;
+  img.src = `${number}.jpg`;
   img.classList.add("bgImg");
   body.prepend(img);
 }
